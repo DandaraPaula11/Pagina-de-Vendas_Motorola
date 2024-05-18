@@ -9,13 +9,8 @@
 :root {
     --color-azul-escuro: rgb(1, 5, 22);
     --color-branco: rgb(255, 255, 255);
-
-    
-    --font-color-menu: #ffffff;
-    --font-h1: #90e0ef;
-    --font-p:#001219;
-    --color-branca: #ffffff;
 }
+
 /*MOTOROLA*/
 body{
     font-size: 100%; 
