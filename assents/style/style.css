@@ -6,14 +6,23 @@
 }
 
 /*CORES*/
-var
+:root {
+    --color-azul-escuro: rgb(1, 5, 22);
+    --color-branco: rgb(255, 255, 255);
+
+    
+    --font-color-menu: #ffffff;
+    --font-h1: #90e0ef;
+    --font-p:#001219;
+    --color-branca: #ffffff;
+}
 /*MOTOROLA*/
 body{
     font-size: 100%; 
-    background:rgb(255, 255, 255);
+    background: var(--color-branca);
     font-family: Helvetica;
     width: 100%;
-    background: rgb(1, 5, 22) ;
+    background: var(--color-azul-escuro);
 }
 
 /*CABEÇALHO*/
@@ -25,7 +34,7 @@ body{
     height: 90px;
     width: 100%;
     padding-right: 5%;
-    background: rgb(255, 255, 255) ;
+    background: var(--color-branca) ;
     position: fixed;
     padding-left: 10px;
     margin-bottom: 1% ; /*Espaço entre o cabeçalho e o bloco1*/
@@ -44,7 +53,7 @@ body{
 }
 #cabeçalho-item{
     font-family: 'Sarala', sans-serif;
-    color: rgb(1, 5, 22) ;;
+    color: var(--color-azul-escuro);;
     font-weight: 400;
     font-size: 18px;
     display: inline-block;
@@ -53,17 +62,16 @@ body{
     font-size: 17.3px;
     line-height: 50px;
 }
-
 #cabeçalho-conta{
     /* background-color: rgb(214, 194, 12); */
-    border: solid 2.5px rgb(1, 5, 22) ;
+    border: solid 2.5px var(--color-azul-escuro);
     border-radius: 5%;
     width: 140px;
     text-align: center;
 }
 
-/* Bloco Todos  */
-.section-todos{
+/**/
+main{
    padding: none;
    padding-left: 3%;
    padding-right: 3%;
@@ -164,13 +172,13 @@ body{
 }
 #bloco-2-h2{
     font-size: 58px ;
-    color:  rgb(255, 255, 255);
+    color:  var(--color-branca);
     text-align: center;
 }
 #bloco-2-p{
     font-size: 18px ;
     padding-top: 1%;
-    color:rgb(255, 255, 255);
+    color:var(--color-branca);
 }
 .bloco-2-div2{
     /* border: solid 0.8px rgb(155, 59, 59); */
@@ -218,7 +226,7 @@ body{
 }
 .bloco-3-div-p1{
     font-size: 20px ;
-    color:rgb(255, 255, 255);
+    color:var(--color-branca);
     margin-top: 10%;
     margin-left: 8%;
 }
@@ -306,7 +314,7 @@ body{
 
 }
 #bloco-4-div-h5{
-    color: rgb(255, 255, 255);
+    color: var(--color-branca);
     font-size: 20px;
     font-weight: 100;
     text-align: center;
