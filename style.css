@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;  
+}
+/*MOTOROLA*/
+body{
+    font-size: 100%; 
+    background:rgb(255, 255, 255);
+    font-family: Helvetica;
+    width: 100%;
+    background: rgb(1, 5, 22) ;
+}
+
+/*CABEÇALHO*/
+.cabeçalho-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    width: 100%;
+    padding-right: 5%;
+    background: rgb(255, 255, 255) ;
+    position: fixed;
+    padding-left: 10px;
+    margin-bottom: 1% ; /*Espaço entre o cabeçalho e o bloco1*/
+    position: static; 
+}
+.cabeçalho-logo{
+    height: 35px;
+    position: relative;
+    max-width: 155px;
+    margin-left: -85%;
+}
+.cabeçalho-todos{
+    display: flex;
+    gap: 30px;
+    margin-right: -8%;
+}
+#cabeçalho-item{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(1, 5, 22) ;;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 17.3px;
+    line-height: 50px;
+}
+
+#cabeçalho-conta{
+    /* background-color: rgb(214, 194, 12); */
+    border: solid 2.5px rgb(1, 5, 22) ;
+    border-radius: 5%;
+    width: 140px;
+    text-align: center;
+}
+
+/* Bloco Todos  */
+.section-todos{
+   padding: none;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+/* Bloco 1  **********************************************************/
+.section-bloco-1{
+    /* border: solid 2px white; */
+    height: 600px;  
+    display: flex;
+}
+#bloco-1-texto{
+    padding-top: 10%;
+    text-align: justify; 
+    padding-right: 10%;  
+}
+#bloco-1-h1{
+    font-size: 62px ;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(47, 0, 255);
+    
+}
+#bloco-1-p{
+    font-size: 18px ;
+    padding-top: 1%;
+    color:antiquewhite;
+    
+}
+.bloco-1-div-a{
+    font-size: 22px ;
+    padding-top: 1%;
+    display: flex;
+    gap: 50px;
+    height: 70px;
+    text-align: center;
+    font-weight: 400;
+    color: white;    
+}
+#bloco-1-a1{
+    background-color: rgb(1, 162, 255);
+    display: inline-block;
+    width: 200px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#bloco-1-a2{
+    border: solid 2px white;
+    border-radius: 6px;
+    display: inline-block;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+#bloco-1-div2{
+    /* border: solid 2px white;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;/*para sobrepor */
+    position: relative;/*para sobrepor */
+
+}
+#bloco-1-div2-circulo{
+    background: lightblue;
+    border-radius: 50%;
+    width: 490px;
+    height: 490px;
+    position: absolute; /*para sobrepor */
+    box-shadow: 2px 2px 5px rgb(0, 4, 255);
+    
+}
+#bloco-1-div2-img{
+    width: 600px;
+    position: relative; /*para sobrepor */
+ 
+}
+
+
+
+/* Bloco 2  **********************************************************/
+.bloco-2{
+    /* background-color: rgb(199, 226, 241); 
+    border-radius: 10px; 
+    margin-right: -40px;
+    margin-left: -40px;  */
+    width: auto;
+    height: 600px;
+    padding-top: 3%; 
+       
+}
+.bloco-2-div1{
+    /* border: solid 0.8px rgb(155, 59, 59); */
+    text-align: center;
+}
+#bloco-2-h2{
+    font-size: 58px ;
+    color:  rgb(255, 255, 255);
+    text-align: center;
+}
+#bloco-2-p{
+    font-size: 18px ;
+    padding-top: 1%;
+    color:rgb(255, 255, 255);
+}
+.bloco-2-div2{
+    /* border: solid 0.8px rgb(155, 59, 59); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+}
+#bloco-2-img{
+    width: 1200px;    
+}
+
+
+/* Bloco 3  **********************************************************/
+.section-bloco-3{
+    background-color: rgb(199, 226, 241); 
+    border-radius: 60px;  
+    /* margin-right: -40px;
+    margin-left: -40px;   */
+    width: auto;
+    height: 260px;
+    margin-top: 3%;
+    padding-top: 3%;
+}
+#bloco-3-h5{
+    font-size: 30px ;
+    font-weight: 100;
+    color:  rgb(1, 5, 22);
+    text-align: justify;
+    padding-bottom: 2%;
+    padding-left: 3%;
+}
+.bloco-3-div{
+    /* border: solid 0.8px rgb(238, 0, 0); */
+    display: flex;
+    gap: 22px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.bloco-3-div00{
+    width: 220px;
+    height: 130px;
+    border-radius: 6px;
+    background-color:rgb(1, 5, 22);
+}
+.bloco-3-div-p1{
+    font-size: 20px ;
+    color:rgb(255, 255, 255);
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.bloco-3-div-p2{
+    font-size: 24px ;
+    color:rgb(121, 2, 2);
+    margin-top: 8%;
+    margin-left: 8%;
+}
+.bloco3-img{
+    padding-top: 1%;
+    padding-bottom: 100%;
+    padding-left: 60%;
+}
+#bloco3-img-camera{
+   
+    padding-left: 60%;
+}
+#bloco3-img-bateria{
+}
+#bloco3-img-tela{
+}
+#bloco3-img-gb{
+}
+#bloco3-img-ram{
+}
+#bloco3-img-android{
+} 
+
+
+/* Bloco 4  **********************************************************/
+.section-bloco-4{
+    /* border: solid 2px white; */
+    width: auto;
+    height: 580px;
+    padding-top: 3%;
+}
+#bloco-4-h2{
+    font-size: 30px ;
+    color: white;
+    text-align: center;
+}
+.bloco-4-div{
+    /* border: solid 0.8px white; */
+    padding-top: 0%;
+    display: flex;
+    gap: 22px;   
+}
+.bloco-4-div00{
+    /* background-color: rgb(195, 202, 236); */
+    /* border: solid 0.8px white; */
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    padding-top: 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;/*para sobrepor */
+    position: relative;/*para sobrepor */
+}
+
+#bloco-4-div1{ display:block;}
+#bloco-4-div2{ display:block;}
+#bloco-4-div3{ display:block;}
+#bloco-4-div4{ display:block;} 
+
+#bloco-4-circulo{
+    /* background: lightblue; */
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    position: absolute; /*para sobrepor */
+    box-shadow: 2px 2px 5px rgb(0, 4, 255);
+}
+#bloco-4-img{
+    padding-top: 5%;
+    width: 310px;
+    position: relative; /*para sobrepor */
+}
+.bloco-4-div-texto{
+    /* position: absolute;
+    border: solid 0.8px rgb(158, 12, 12); */
+
+}
+#bloco-4-div-h5{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+#bloco-4-div-p{
+    color: rgb(145, 221, 245);
+    font-size: 18px;
+    padding-top: 3%;
+    text-align: center;
+    font-weight: 100;
+}
+#bloco-4-linha{
+    border: solid 0.2px white;
+    border-radius: 0.2px;
+    width: 40%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.bloco-4-div-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bloco-4-button{
+    background: #00eeff;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 120px;
+    height: 50px;
+    cursor : pointer;
+    margin-top: 7%;
+}
+
+/* rodape  **********************************************************/
+footer{ position: relative;}
+.rodape-footer{
+    background-color: rgb(203, 207, 209); 
+    margin-right: -40px;
+    margin-left: -40px;  
+    width: auto;
+    height: 250px;
+    margin-top: 2%;
+    padding-top: 2%;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    column-gap: 120px; 
+}
+.rodape-div00{}
+#rodape-div1{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  
+}
+#rodape-div2{}
+#rodape-div3{}
+#rodape-logo{
+    height: 40px;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+#rodape-redes-socias{
+    display: flex; 
+    list-style: none;
+    gap: 15px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 24%;
+    padding-top: 30%;
+}
+#rodape-linha-vertical{
+    height: 140px;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.rodape-text{
+    font-size: 18px;
+    color: #000000;
+    list-style: none;
+    text-align: justify;    
+    text-decoration: none;
+    cursor: pointer;
+}
+.rodape-text-h4{
+    font-size: 20px;
+}
+.rodape-text-a{
+    display: flex;
+    margin-top: 8px;
+    font-weight: unset;
+}
+
+
+
